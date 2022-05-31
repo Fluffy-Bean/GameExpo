@@ -1,0 +1,32 @@
+.activities {
+	display: flex;
+	flex-direction: column;
+}
+.activities div {
+	margin: 0.5em 0;
+	padding: 1em;
+
+	border-radius: var(--rad);
+}
+.activities div p,
+.activities div h3 {
+	text-align: left;
+
+	color: var(--fg-dark);
+}
+.activities div:first-child {
+	margin-top: 0;
+}
+.activities div:last-child {
+	margin-bottom: 0;
+}
+
+#showcase {
+	background-color: var(--dv8-orange);
+}
+#demo {
+	background-color: var(--dv8-cyan);
+}
+#more {
+	background-color: var(--dv8-yellow);
+}

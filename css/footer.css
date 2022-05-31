@@ -1,0 +1,67 @@
+/*
+	Footer
+*/
+footer div a,
+footer div p {
+	font-family: "Open Sans", sans-serif;
+	text-decoration: none;
+
+	margin: 1em 0;
+
+	display: block;
+
+	color: var(--fg-dark);
+}
+
+footer .top {
+	margin: 4em -0.5em 0.5em -0.5em;
+	padding: 0.5em;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+	border-radius: 1em;
+	background-color: var(--footer);
+}
+footer .top div {
+	margin: 0.5em;
+	padding: 0.5em;
+
+	min-width: 20em;
+
+	text-align: center;
+
+	color: var(--fg-dark);
+}
+footer .madeBy {
+	margin: 0.5em auto;
+	padding: 0;
+
+	max-width: 35em;
+
+	display: flex;
+	justify-content: space-around;
+}
+footer .madeBy hr {
+  margin: 0;
+  padding: 0;
+}
+@media (max-width:470px) {
+	footer .madeBy {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+  footer .madeBy hr {
+    display: none;
+  }
+}
+
+footer .madeBy p,
+footer .madeBy a {
+	font-family: 'Lexend Deca', sans-serif;
+
+	margin: 0;
+	padding: 0;
+}

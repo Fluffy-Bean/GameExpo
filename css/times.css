@@ -1,0 +1,56 @@
+.times {
+	display: flex;
+	justify-content: space-around;
+}
+.times img {
+	margin: 0;
+	width: 70%;
+	min-height: 20em;
+
+	object-fit: cover;
+	border-radius: var(--rad);
+}
+
+.times div {
+	margin: 0;
+	padding: 0;
+	width: 30%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+
+	background-color: var(--bg-light);
+}
+.times div div {
+	padding: 0;
+
+	width: auto;
+
+	text-align: center;
+
+	display: flex;
+	flex-direction: row;
+}
+
+/*
+  When page is too thin, the map and text stacks
+*/
+
+@media (max-width:900px) {
+	.times {
+		display: flex;
+		flex-direction: column;
+	}
+	.times img {
+		width: auto;
+
+		border-radius: var(--rad);
+	}
+	.times div {
+		margin: 0;
+		padding: 2em;
+		width: auto;
+	}
+}
