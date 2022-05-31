@@ -1,0 +1,158 @@
+/*
+	I seperated out the different elements CSS into different files
+	this is to keep the CSS semi tidy and easier to configure if
+	any problems occur.
+*/
+
+/* UI */
+@import url("css/navigation.css");
+@import url("css/footer.css");
+/* Main */
+@import url("css/team.css");
+@import url("css/visitors.css");
+@import url("css/times.css");
+@import url("css/activities.css");
+
+:root {
+	--nav: 				#151515;
+	--footer: 		#FFFFFF;
+
+	--bg-dark: 		#151515;
+	--bg: 				#E8E3E3;
+	--bg-light: 	#FFFFFF;
+	--fg-dark: 		#151515;
+	--fg-light: 	#E8E3E3;
+
+	--rad: 				15px;
+
+	--dv8-orange: #F36023;
+	--dv8-yellow: #FFE11C;
+	--dv8-cyan: 	#00AAB0;
+	--dv8-magenta:#D51E90;
+	--dv8-lime: 	#C0D939;
+}
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+/*
+	Page Structure
+*/
+
+html {
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+body {
+	margin: 0;
+	padding: 1em 1em 0;
+
+	background-image: url();
+	background-color: var(--bg);
+}
+
+main {
+	margin: 0 auto;
+	padding: 4em 1em 1em 1em;
+
+	max-width: 1000px;
+	min-height: 100vh;
+
+	background-color: var(--bg);
+}
+section {
+	margin: 0;
+	padding: 6em 0 0;
+}
+section div {
+	padding: 1em;
+
+	background-color: var(--bg-light);
+	border-radius: var(--rad);
+}
+section p {
+	margin: 0.5em;
+
+	font-weight: 500;
+
+	color: var(--fg-dark)
+}
+
+header {
+	margin: 3em 0 0;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+header img {
+	margin: -0.38em;
+	padding: 0;
+
+	width: 4.5em;
+	height: 5em;
+}
+
+/*
+	Text and headings
+*/
+
+h1 {
+	font-family: 'Lexend Deca', sans-serif;
+
+	text-align: center;
+	font-size: 50px;
+}
+h2 {
+	font-family: 'Lexend Deca', sans-serif;
+
+	margin: -0.5em 0.5em;
+	padding: 0.5em 0.5em 0.5em 1.5em;
+
+	position: relative;
+
+	border-radius: var(--rad);
+}
+h3 {
+	font-family: 'Lexend Deca', sans-serif;
+
+	margin: 0.5em 0;
+}
+
+#about h2 {
+	background-color: var(--dv8-orange);
+}
+#team h2 {
+	background-color: var(--dv8-cyan);
+}
+#visitors h2 {
+	background-color: var(--dv8-yellow);
+}
+#times h2 {
+	background-color: var(--dv8-magenta);
+}
+#activities h2 {
+	background-color: var(--dv8-lime);
+}
+
+@media (max-width:600px) {
+	header img {
+		width: 3em;
+		height: 3em;
+	}
+	h1 {
+		font-size: 40px;
+	}
+	h2 {
+		padding-left: 0.5em;
+
+		text-align: center;
+	}
+	main {
+		padding: 3em 0 0 0;
+	}
+	section {
+		padding: 5.5em 0 0;
+	}
+}

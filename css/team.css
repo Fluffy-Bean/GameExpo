@@ -1,0 +1,39 @@
+#team div img {
+	width: 100%;
+	max-width: 30em;
+	min-width: 0;
+
+	display: block;
+	object-fit: contain;
+
+	border-radius: var(--rad);
+}
+#team div {
+	margin: 0 0 0.5em 0;
+
+	display: flex;
+	flex-direction: column;
+
+	text-align: justify;
+	align-items: center;
+}
+#teams div p {
+	margin: 0 !important;
+}
+#team div span {
+	margin: 0 0.5em;
+}
+
+/*
+  When page is too thin, the picture and text stacks
+*/
+
+@media (min-width:800px) {
+  #team div {
+    display: flex;
+    flex-direction: row;
+  }
+	#team div img {
+		min-width: 20em;
+	}
+}

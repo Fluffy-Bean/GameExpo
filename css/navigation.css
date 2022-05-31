@@ -1,0 +1,110 @@
+/*
+	This CSS is quite messy, this is because all of the
+	navigation bar is made with CSS and CSS only...
+*/
+
+nav {
+	margin: -0.5em;
+	padding: 0.5em 1em;
+
+	width: calc(100% - 3em);
+	height: 2.5em;
+
+	position: fixed;
+	z-index: 1;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+
+	background-color: var(--nav);
+	border-radius: var(--rad);
+	user-select: none;
+}
+
+nav .logo {
+	margin: 0 0.5em;
+
+	max-height: 2.5em;
+
+	transition: max-height 0.2s ease;
+}
+nav .menu {
+	display: flex;
+}
+nav .menu a,
+nav .menu p {
+	font-family: 'Lexend Deca', sans-serif;
+	text-decoration: none;
+
+	padding: 0;
+	margin: 0 0.5em;
+
+	color: var(--fg-light);
+}
+
+/*
+	There must be a better way of doing this
+*/
+
+nav .menu .about:hover {
+	color: var(--dv8-orange);
+}
+nav .menu .team:hover {
+	color: var(--dv8-cyan);
+}
+nav .menu .visitors:hover {
+	color: var(--dv8-yellow);
+}
+nav .menu .times:hover {
+	color: var(--dv8-magenta);
+}
+nav .menu .activities:hover {
+	color: var(--dv8-lime);
+}
+
+/*
+	Toggler for the menu
+*/
+
+nav i {
+	color: var(--fg-light);
+}
+#toggler,
+nav label {
+	display: none;
+}
+
+@media (max-width:600px) {
+	nav {
+		height: auto;
+	}
+	nav .logo {
+		margin: 0;
+
+		max-height: 2em;
+	}
+	nav .menu {
+		width: 100%;
+		height: auto;
+		max-height: 0px;
+
+		overflow: hidden;
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		transition: max-height 0.2s ease;
+	}
+	nav .menu a {
+		margin: 1em;
+	}
+	nav label {
+		display: inline-flex;
+	}
+	#toggler:checked ~ .menu {
+		max-height: 275px;
+	}
+}
