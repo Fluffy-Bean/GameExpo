@@ -67,7 +67,7 @@
 						</div>
 						<div>
 							<i class="material-icons">place</i>
-							<p>Richmond Pl, Brighton</p>
+							<p>27 Richmond Pl, BN2 9NA</p>
 						</div>
 					</div>
 					<img src="images/temporaryDirections.png" alt="directions">

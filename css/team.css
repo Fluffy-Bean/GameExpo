@@ -1,7 +1,8 @@
 #team div img {
-	width: 100%;
-	max-width: 30em;
-	min-width: 0;
+	/*width: 100%;*/
+	max-width: 20em;
+	max-height: 20em;
+
 
 	display: block;
 	object-fit: contain;
@@ -16,6 +17,9 @@
 
 	text-align: justify;
 	align-items: center;
+}
+#team div div {
+	display: block;
 }
 #teams div p {
 	margin: 0 !important;
@@ -34,6 +38,6 @@
     flex-direction: row;
   }
 	#team div img {
-		min-width: 17em;
+		min-width: 15em;
 	}
 }
