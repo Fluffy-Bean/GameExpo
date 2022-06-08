@@ -1,5 +1,5 @@
 # GameExpo
-DV8 2022 Game Expo Website developed by Michal.
+DV8 2022 Game Event (no longer called Expo) Website developed by Michal.
 
 ## Legal
 I do not own any of the logos displayed on this website.

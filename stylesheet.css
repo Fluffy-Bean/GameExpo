@@ -54,7 +54,7 @@ body {
 
 main {
 	margin: 0 auto;
-	padding: 4em 1em 1em 1em;
+	padding: 4em 0 0;
 
 	max-width: 1000px;
 	min-height: 100vh;
@@ -72,8 +72,6 @@ section div {
 	border-radius: var(--rad);
 }
 section p {
-	margin: 0.5em;
-
 	font-weight: 500;
 
 	color: var(--fg-dark)
@@ -151,8 +149,5 @@ h3 {
 	}
 	main {
 		padding: 3em 0 0 0;
-	}
-	section {
-		padding: 5.5em 0 0;
 	}
 }
