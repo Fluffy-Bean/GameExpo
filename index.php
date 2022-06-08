@@ -30,7 +30,7 @@
 			<section id="team">
 				<h2>The Teams</h2>
 				<?php
-				include"ui/teams.php";
+				include"ui/teams.html";
 				?>
 			</section>
 
