@@ -59,7 +59,7 @@
 						<h3>Friday - June</h3>
 						<div>
 							<i class="material-icons">event</i>
-							<p>24/6/2022</p>
+							<p>17/6/2022</p>
 						</div>
 						<div>
 							<i class="material-icons">schedule</i>
