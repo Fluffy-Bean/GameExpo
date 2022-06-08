@@ -30,3 +30,9 @@
     <p>About: Rainforest Runner is an endless runner game where you will have to dodge the dangers of the Brazilian rainforest. If you survive, you're awarded with a chest full of treasure and rewards for completing the level. Good luck! You'll need it.</p>
   </div>
 </div>
+<div>
+  <?php
+    $images = glob("../images/gallery/*.{jpg,jpeg,gif,png,bmp,webp}", GLOB_BRACE);
+    foreach ($images as $i) { echo "<img src='gallery/". basename($i) ."'>"; };
+  ?>
+</div>

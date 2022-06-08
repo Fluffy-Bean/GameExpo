@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="DV8 Game Expo 2022">
-  <title>Game Expo</title>
+  <meta name="description" content="DV8 Game Event 2022">
+  <title>Game Event</title>
 	<link rel="icon" type="image/x-icon" href="images/dv8.png">
 	<link rel="stylesheet" href="stylesheet.css">
 	<!-- Fonts -->
@@ -20,7 +20,7 @@
 		<main>
 			<header>
 				<img src="images/wiggleBefore.png">
-				<h1>Welcome to DV8s Game Expo!</h1>
+				<h1>Welcome to DV8's Game Event!</h1>
 				<img src="images/wiggleAfter.png">
 			</header>
 
@@ -30,14 +30,14 @@
 			<section id="team">
 				<h2>The Teams</h2>
 				<?php
-				include"ui/teams.html";
+				include"ui/teams.php";
 				?>
 			</section>
 
 			<section id="about">
 				<h2>About</h2>
 				<div>
-					<p>The DV8 Game Expo is a panel run by its students, showcasing their hard work they have done during this year and a chance to show off their skills to others!</p>
+					<p>The DV8 Game Event is a panel run by its students, showcasing their hard work they have done during this year and a chance to show off their skills to others!</p>
 				</div>
 			</section>
 
