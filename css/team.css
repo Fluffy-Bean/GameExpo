@@ -28,12 +28,12 @@
   When page is too thin, the picture and text stacks
 */
 
-@media (min-width:800px) {
+@media (min-width:621px) {
   #team div {
     display: flex;
     flex-direction: row;
   }
 	#team div img {
-		min-width: 20em;
+		min-width: 17em;
 	}
 }

@@ -28,7 +28,7 @@
 
 			<!-- Teams -->
 			<section id="team">
-				<h2>The Team</h2>
+				<h2>The Teams</h2>
 				<?php
 				include"ui/teams.html";
 				?>
