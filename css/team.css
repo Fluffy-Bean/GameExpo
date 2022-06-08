@@ -1,16 +1,15 @@
-/*
-	When page thin content stacks
-*/
-#team div:last-child {
+#team .teamOther {
 	justify-content: center;
 	align-items: center;
 }
 
+/*
+	Normal View
+*/
 #team div img {
-	/*width: 100%;*/
 	max-width: 20em;
-	max-height: 20em;
-
+	width: 100%;
+	min-width: 15em;
 
 	display: block;
 	object-fit: contain;
@@ -21,69 +20,75 @@
 	margin: 0 0 0.5em 0;
 
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 
 	text-align: justify;
 	align-items: center;
 }
 #team div div {
+	margin: 0;
+	padding: 0;
+
 	display: block;
 }
-#team div p {
-	margin: 0 !important;
-}
 #team div span {
-	margin: 0 0.5em;
+	margin: 0 1em;
 }
 
+/*
+  Gallery
+*/
+
 #team .gallery {
+	margin-bottom: 1.5em;
+	padding: 0.5em;
+
 	display: flex;
 	flex-direction: column;
 }
 #team .gallery div {
-	margin: auto -1em -1em;
+	margin: auto 0 0;
 
 	display: flex;
+	flex-wrap: wrap;
+
+	justify-content: center;
+
+	background: none;
 }
 #team .gallery div img {
 	margin: 0.5em;
+	min-width: 250px;
 
-	min-width: none;
-	max-width: 100%;
-	height: 16em;
-
+	flex: 1 1 250px;
 
 	object-fit: cover;
 }
 #team .gallery h3 {
-	font-size: 24px;
-
 	margin: 0;
 }
 
 /*
-  Normal page view
+  Gallery
 */
+#team div .teamInfo {
+	display: block;
+}
 
-@media (min-width:621px) {
-  #team div {
-    display: flex;
-    flex-direction: row;
+/*
+  When page thin content stacks
+*/
+@media (max-width:621px) {
+	#team div {
+		justify-content: center;
+		align-items: center;
+
+		flex-direction: column;
   }
 	#team div img {
-		min-width: 15em;
+		min-width: 0;
 	}
-	#team .gallery div img {
-		margin: 0.5em;
-
-		max-width: calc(50% - 1em);
-		width: 100%;
-		min-width: 20em;
-	}
-	#team .gallery div {
-		margin: auto -0.5em -0.5em;
-
-		flex-wrap: wrap;
-		justify-content: space-around;
+	#team div div {
+		margin: 1em;
 	}
 }
