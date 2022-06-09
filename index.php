@@ -6,6 +6,7 @@
   <meta name="description" content="DV8 Game Event 2022">
   <title>Game Event</title>
 	<link rel="icon" type="image/x-icon" href="images/dv8.png">
+	<!-- Style -->
 	<link rel="stylesheet" href="stylesheet.css">
 	<!-- Fonts -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
