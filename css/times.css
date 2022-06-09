@@ -1,11 +1,14 @@
 .times {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 .times img {
 	margin: 0;
-	width: 70%;
+
+	width: 69%;
 	min-height: 20em;
+
+	display: block;
 
 	object-fit: cover;
 	border-radius: var(--rad);
@@ -20,8 +23,6 @@
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
-
-	background-color: var(--bg-light);
 }
 .times div div {
 	padding: 0;
@@ -45,8 +46,6 @@
 	}
 	.times img {
 		width: auto;
-
-		border-radius: var(--rad);
 	}
 	.times div {
 		margin: 0;

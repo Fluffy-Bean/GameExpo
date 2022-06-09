@@ -59,9 +59,14 @@
 	margin: 0.5em;
 	min-width: 250px;
 
-	flex: 1 1 250px;
+	flex: 1 1 150px;
 
 	object-fit: cover;
+
+	transition: transform 0.15s ease-out;
+}
+#team .gallery div img:hover {
+	transform: scale(1.15);
 }
 #team .gallery h3 {
 	margin: 0;
