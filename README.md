@@ -22,7 +22,7 @@ I do not own any of the logos displayed on this website.
 
 ### Secondary
   - [x] Add Lazy Loading to Teams section
-  - [ ] Fix Smooth Scroll on  Touch Screen/Mobile devices
+  - [x] Fix Smooth Scroll on Touch Screen/Mobile devices
 
 ## Extra info how this was made
   - I use Arch btw
