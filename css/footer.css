@@ -34,7 +34,7 @@ footer .top div {
 
 	color: var(--fg-dark);
 }
-footer .madeBy {
+footer .uwu {
 	margin: 0.5em auto;
 	padding: 0;
 
@@ -43,23 +43,23 @@ footer .madeBy {
 	display: flex;
 	justify-content: space-around;
 }
-footer .madeBy hr {
+footer .uwu hr {
   margin: 0;
   padding: 0;
 }
 @media (max-width:470px) {
-	footer .madeBy {
+	footer .uwu {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 	}
-  footer .madeBy hr {
+  footer .uwu hr {
     display: none;
   }
 }
 
-footer .madeBy p,
-footer .madeBy a {
+footer .uwu p,
+footer .uwu a {
 	font-family: 'Lexend Deca', sans-serif;
 
 	margin: 0;
