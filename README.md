@@ -6,18 +6,18 @@ I do not own any of the logos displayed on this website.
 
 ## ToDo
 ### Dependencies
-  - [ ] Add correct logo
+  - [x] Add correct logo
   - [x] Add correct contact into to Footer
-  - [ ] Fill in information
+  - [x] Fill in information
 
 ### Primary
 - Fix margins on website
   - [x] Activities
-  - [ ] Map
+  - [x] Map
 - [x] Make domain for website
 - [x] Fix PHP and CSS Classes and IDs
 - Remove temporary images
-  - [ ] Map
+  - [x] Map
   - [x] Raccoons :c
 
 ### Secondary
