@@ -34,7 +34,7 @@ footer .top div {
 
 	color: var(--fg-dark);
 }
-footer .uwu {
+footer .op {
 	margin: 0.5em auto;
 	padding: 0;
 
@@ -43,23 +43,23 @@ footer .uwu {
 	display: flex;
 	justify-content: space-around;
 }
-footer .uwu hr {
+footer .op hr {
   margin: 0;
   padding: 0;
 }
 @media (max-width:470px) {
-	footer .uwu {
+	footer .op {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 	}
-  footer .uwu hr {
+  footer .op hr {
     display: none;
   }
 }
 
-footer .uwu p,
-footer .uwu a {
+footer .op p,
+footer .op a {
 	font-family: 'Lexend Deca', sans-serif;
 
 	margin: 0;

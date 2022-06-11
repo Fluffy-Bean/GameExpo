@@ -118,6 +118,8 @@
 	background: #151515dd;
 
 	border-radius: 0;
+
+	backdrop-filter: blur(1px);
 }
 #team .fullScreenImage span {
 	margin: 0;
@@ -134,6 +136,8 @@
 	font-weight: bolder;
 	color: #FFFFFF;
 	cursor: pointer;
+
+	user-select: none;
 }
 #team .fullScreenImage img {
 	margin: 0;
@@ -141,6 +145,8 @@
 
 	max-width: 90%;
 	max-height: 90%;
+	width: auto;
+	height: auto;
 	min-width: none;
 	min-height: none;
 
@@ -152,5 +158,8 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 
-	border-radius: 0;
+	background-color: #151515;
+	outline: #FFFFFF88 1px solid;
+	border: #00000088 1px solid;
+	border-radius: 5px;
 }
