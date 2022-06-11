@@ -1,9 +1,20 @@
 /*
+	This took forever to make, CSS will be the death of me so please
+	forgive me for graphial errors that were not fixed, I'm aware of
+	some of them but had no clue how to fix them. Such as the images
+	in the gallery portion of the page not shrinking correctly :c
+
+	These a lot of protions of the page that are also redundant and
+	not made the best, so please complain to me about it on Twitter
+	(@fluffybeanUwU) or on Telegram (@Fluffy Bean).
+*/
+
+
+/*
 	I seperated out the different elements CSS into different files
 	this is to keep the CSS semi tidy and easier to configure if
 	any problems occur.
 */
-
 /* UI */
 @import url("css/navigation.css");
 @import url("css/footer.css");
@@ -33,6 +44,7 @@
 }
 * {
   font-family: "Open Sans", sans-serif;
+	font-display: swap;
 }
 
 /*
@@ -98,12 +110,14 @@ header img {
 
 h1 {
 	font-family: 'Lexend Deca', sans-serif;
+	font-display: swap;
 
 	text-align: center;
 	font-size: 50px;
 }
 h2 {
 	font-family: 'Lexend Deca', sans-serif;
+	font-display: swap;
 
 	margin: -0.5em 0.5em;
 	padding: 0.5em 0.5em 0.5em 1.5em;
@@ -114,8 +128,16 @@ h2 {
 }
 h3 {
 	font-family: 'Lexend Deca', sans-serif;
+	font-display: swap;
 
 	margin: 0.5em 0;
+}
+.gray {
+	margin: 0;
+	padding: 0;
+
+	color: #696969;
+	/* nice */
 }
 
 #about h2 {
