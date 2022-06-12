@@ -1,20 +1,21 @@
 /*
 	This took forever to make, CSS will be the death of me so please
-	forgive me for graphial errors that were not fixed, I'm aware of
+	forgive me for graphical errors that were not fixed, I'm aware of
 	some of them but had no clue how to fix them. Such as the images
 	in the gallery portion of the page not shrinking correctly :c
 
-	These a lot of protions of the page that are also redundant and
+	These a lot of portions of the page that are also redundant and
 	not made the best, so please complain to me about it on Twitter
 	(@fluffybeanUwU) or on Telegram (@Fluffy Bean).
 */
 
 
 /*
-	I seperated out the different elements CSS into different files
+	I separated out the different elements CSS into different files
 	this is to keep the CSS semi tidy and easier to configure if
 	any problems occur.
 */
+
 /* UI */
 @import url("css/navigation.css");
 @import url("css/footer.css");
