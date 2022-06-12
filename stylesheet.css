@@ -132,11 +132,14 @@ h3 {
 
 	margin: 0.5em 0;
 }
-.gray {
+.gray *,
+.gray{
 	margin: 0 !important;
 	padding: 0;
 
 	color: #696969;
+
+	text-decoration: none;
 	/* nice */
 }
 
